@@ -1,0 +1,35 @@
+def func1():
+    print ("Напишите че то")
+    stroka = str(input())
+    dlina = len(stroka)
+    print("Длина строки: ", dlina)
+#func1()
+
+def func2():
+    dlinaa = 0
+    print ("Напишите имя")
+    name = str(input())
+    dlinaa += len(name)
+    print ("Напишите возраст")
+    vozrast = str(input())
+    dlinaa += len(vozrast)
+    print("Длина строки: ", dlinaa, ", Имя: ", name, ", Возраст: ", vozrast)
+#func2()
+
+def func3():
+    a = int(input())
+    b = int(input())
+    c = int(input())
+    d = int(input())
+    if a-c <= 1 and a-c >= -1 and b-d <= 1 and b-d >= -1:
+        print("YES")
+    else:
+        print("NO")
+#func3()
+
+def func4():
+    spisok1 = [1, 2, 5, 6]
+    spisok2 = [3, 4, 7, 8]
+    spisok3 = []
+     
+        spisok3.append( )
